@@ -1,0 +1,8 @@
+{
+  "name": "math-preview",
+  "description": "Live LaTeX math preview via pdflatex + Sioyek",
+  "version": "1.0.0",
+  "author": {
+    "name": "Akmal Bakar"
+  }
+}
