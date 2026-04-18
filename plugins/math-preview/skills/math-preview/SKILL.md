@@ -14,10 +14,9 @@ The user needs these installed on macOS:
 
 ## Setup
 
-The launcher must be running on the host. Check `/tmp/math-preview/.launcher.pid` — if missing or stale, tell the user to run:
-```
-bash ${CLAUDE_PLUGIN_ROOT}/bin/launch.sh
-```
+The launcher must be running on the host. Check `/tmp/math-preview/.launcher.pid` — if missing or stale, tell the user to run `math-preview` in a host terminal.
+
+Install the launcher to PATH: `cp ${CLAUDE_PLUGIN_ROOT}/bin/launch.sh ~/.local/bin/math-preview && chmod +x ~/.local/bin/math-preview`
 
 ## How to show math
 
